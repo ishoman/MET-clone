@@ -30,24 +30,35 @@
 ##### Ticket Purchasing
  * Ticket Purchase Button
  * Social Media Links (FB, twitter, Pinterest, IG, YouTube)
+
 ##### Museum Locations
  * The Met Fifth Avenue
  * The Met Breuer
  * The Met Fifth Avenue
- Components needed (from top to bottom): blogs, newsletter sign up, footer
+ Components needed (from top to bottom):  , footer
+
 ##### Site highlights
 * Store
 * Members Info
 * Museum Map
 * Kids Section
+
 ##### Events
 * Featured Event 1
 * Featured Event 2
 * Featured Event 3
 * Featured Event 4
+* See all events link
+
 ##### Blogs
+* Featured Blog 1
+* Featured Blog 2
+* Featured Blog 3
+* Featured Blog 4
+* See all blogs link
+##### _(Place Events and Blogs in Row)_
+
+##### Newsletter Sign Up (Form)
 * _filler_
-##### Nav Bar
-* _filler_
-##### Nav Bar
+##### Footer
 * _filler_
