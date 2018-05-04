@@ -1,3 +1,12 @@
-<p>
-  events works!
-</p>
+<div class="col">
+  <div *ngFor="let event of events">
+    <div class="card">
+      <h2>{{event.eventName}}</h2>
+      <br>
+      <p>{{event.eventDetails}}</p>
+      <br>
+      <h5>{{event.eventTime}}</h5>
+      <p>{{event.eventCategory}}</p>
+    </div>
+  </div>
+</div>
