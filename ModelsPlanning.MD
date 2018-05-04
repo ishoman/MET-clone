@@ -5,8 +5,11 @@
 ##### Museum Location Info
 * Constructor(Name: string, Description: string, Hours: string)
 
-#### Events
+#### Event
 * Constructor(eventName: string, eventDetails: string, eventTime: string, eventCategory: string)
 
-#### Blogs
+#### Blog
 * Constructor(blogTitle: string, blogDetails: string, blogDate: string, blogCategory: string)
+
+#### Museum Location Address
+* Constructor(locationName: string, street: string, city: string, state: string, zipCode: string)
