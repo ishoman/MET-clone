@@ -6,6 +6,7 @@
 * Constructor(Name: string, Description: string, Hours: string)
 
 #### Events
-* Constructor(eventName: string, eventDetails: string, eventTime: string)
+* Constructor(eventName: string, eventDetails: string, eventTime: string, eventCategory: string)
 
 #### Blogs
+* Constructor(blogTitle: string, blogDetails: string, blogDate: string, blogCategory: string)

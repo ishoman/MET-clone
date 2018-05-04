@@ -35,7 +35,6 @@
  * The Met Fifth Avenue
  * The Met Breuer
  * The Met Fifth Avenue
- Components needed (from top to bottom):  , footer
 
 ##### Site highlights
 * Store
@@ -59,6 +58,14 @@
 ##### _(Place Events and Blogs in Row)_
 
 ##### Newsletter Sign Up (Form)
-* _filler_
+* Email Input
+* Button
+
 ##### Footer
-* _filler_
+_Import (Location Model)_
+* Vertical Nav (About The Met, MetMedia, Blogs, Press)
+* Location 1 (with address)
+* Location 2 (with address)
+* Location 3 (with address)
+_Sub-Footer with social Media Links and Smaller newsletter sign up form_
+_3rd Footer with Site Index, Terms and Conditions, Privacy Policy, Contact Information and copyright info
