@@ -1,4 +1,4 @@
-# METClone
+# The Metropolitan Museum of Art's Webpage Clone
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
@@ -9,7 +9,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Description
 
-An application created with Angular to clone the Metropolitan Museum of Art's website. Primary focus on separating components and
+An application created with Angular to clone the Metropolitan Museum of Art's website. Primary focus on separating components and eventually implementing Firebase database. Final product will be used for a portfolio piece.
+
+### Planning Documents
+ModelsPlanning.md - Shows initial plans for models to be implemented.
+
+ComponentPlanning.md - Shows component set up with interaction notes and desired elements
+
+ _BOTH FILES AVAILABLE IN ROOT DIRECTORY OF REPOSITORY_
 
 ### Specs
 | Spec | Implemented | Planned |
@@ -33,21 +40,22 @@ An application created with Angular to clone the Metropolitan Museum of Art's we
 
 ### Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve --open` for a dev server. The app will automatically open in browswer and reload if you change any of the source files.
 
 ### Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
 
-
-
 ## Known Bugs
-* When reversing a double digit number, the program as reverses the tens and ones places in the output. i.e. 14 = 41.
+* Styling is highly imperfect. Focused primarily on loading information from components with small attempts to style. (As of 5/4/2018)
 
 ## Technologies Used
-* JS
-* JQuery 3.3.1
+* Angular
+* NodeJS
+* Firebase (not yet Implemented)
+* TypeScript
+* ECMA6
 
 ## Support and contact details
 
@@ -57,4 +65,4 @@ _Email Isaac with any questions, comments, or concerns. isaac.shoman@gmail.com_
 
 *{This software is licensed under the MIT license}*
 
-Copyright (c) 2018 **_{Isaac Shoman}_**
+Copyright (c) 2018 **_Isaac Shoman_**
