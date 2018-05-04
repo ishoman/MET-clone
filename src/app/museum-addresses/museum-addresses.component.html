@@ -1,3 +1,9 @@
-<p>
-  museum-addresses works!
-</p>
+<div *ngFor="let museumAddress of museumAddresses">
+  <div class="card">
+    <h2>{{museumAddress.locationName}}</h2>
+    <br>
+    <p>{{museumAddress.street}}</p>
+    <p>{{museumAddress.city}}, {{museumAddress.state}} {{museumAddress.zipCode}}</p>
+    <p>Phone: {{museumAddress.phone}}</p>
+  </div>
+</div>
