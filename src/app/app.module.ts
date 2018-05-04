@@ -17,6 +17,7 @@ import { BlogsComponent } from './blogs/blogs.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 import { FooterComponent } from './footer/footer.component';
 import { MuseumHighlightsComponent } from './museum-highlights/museum-highlights.component';
+import { MuseumAddressesComponent } from './museum-addresses/museum-addresses.component';
 
 
 export const firebaseConfig = {
@@ -37,7 +38,8 @@ export const firebaseConfig = {
     BlogsComponent,
     NewsletterComponent,
     FooterComponent,
-    MuseumHighlightsComponent
+    MuseumHighlightsComponent,
+    MuseumAddressesComponent
   ],
   imports: [
     BrowserModule,
