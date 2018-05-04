@@ -10,18 +10,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Description
 
-A website created with JS and HTML that allows a user to input a number and returns a .
+A website created with Angular to clone the Metropolitan Museum website.
 
 
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
 | **Program replaces 0 with "Beep!".** | User input: "0" | Output: [Beep!]|
-| **Program replaces 1 with "Boop!" ** | User input: "1" | Output: [Beep! Boop!]|
-| **Program replaces numbers divisible by 3 with "I'm sorry, Dave. I'm afraid I can't do that."** | User input: "3" | Output: "Beep!, Boop!, 2, I'm sorry, Dave. I'm afraid I can't do that."|
-| **Program ignores other numbers that don't meet these **| Input: "10" | Output: "4 3 2 1 0" |
-| **Program ignores other numbers that don't meet these **| Input: "12" | Output: "Beep!, Boop!, 2, ...Boop! Boop! I'm sorry, Dave. I'm afraid I can't do that." |
-| **Program is able to reverse the output.**| Input: "4" | Output: "4, I'm sorry, Dave. I'm afraid I can't do that., 2, Boop!, Beep!" |
+
 
 ## Development server
 
