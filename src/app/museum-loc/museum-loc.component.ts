@@ -9,9 +9,12 @@ import { Museum } from '../models/museum-location-info.model'
 export class MuseumLocComponent {
 
   museums: Museum[] = [
-    new Museum(locationName: 'The Met Fifth Avenue', description: 'Over 5,000 years of art from every corner of the world' ),
-    new Museum()
-  ]
+    new Museum('The Met Fifth Avenue', 'Over 5,000 years of art from every corner of the world', 'Open Today 10AM-9PM'),
+    new Museum('The Met Breur', 'Modern and contemporary art reimagined in an architechtural icon','Open Today 10AM-9PM'),
+    new Museum('The Met Fifth Avenue', 'Over 5,000 years of art from every corner of the world','Open Today 10AM-9PM'),
+
+  ];
+
 
 
 
