@@ -2,6 +2,8 @@
 
 ## Models Planning
 
+### All Models Have been Implemented
+
 ##### Museum Location Info
 * Constructor(Name: string, Description: string, Hours: string)
 
