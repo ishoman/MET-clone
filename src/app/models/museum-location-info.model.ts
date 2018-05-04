@@ -1,3 +1,3 @@
 export class Museum {
-  constructor(locationName: string, description: string, hours: string){}
+  constructor(public locationName: string, public description: string, public hours: string) {}
 }
