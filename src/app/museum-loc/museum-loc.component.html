@@ -1,3 +1,11 @@
-<p>
-  museum-loc works!
-</p>
+<div class="row">
+  <div *ngFor="let museum of museums">
+      <div class="card">
+        <h2>Hello{{museum.locationName}}</h2>
+        <br>
+        <p>hi{{museum.description}}</p>
+        <br>
+        <h5>hello{{museum.hours}}</h5>
+      </div>
+    </div>
+  </div>
