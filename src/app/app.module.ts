@@ -8,6 +8,14 @@ import { AppComponent } from './app.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { HeaderComponent } from './header/header.component';
+import { TicketPurchasingComponent } from './ticket-purchasing/ticket-purchasing.component';
+import { MuseumLocComponent } from './museum-loc/museum-loc.component';
+import { EventsComponent } from './events/events.component';
+import { BlogsComponent } from './blogs/blogs.component';
+import { NewsletterComponent } from './newsletter/newsletter.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 export const firebaseConfig = {
@@ -19,7 +27,15 @@ export const firebaseConfig = {
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavBarComponent,
+    HeaderComponent,
+    TicketPurchasingComponent,
+    MuseumLocComponent,
+    EventsComponent,
+    BlogsComponent,
+    NewsletterComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
