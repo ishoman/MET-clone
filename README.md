@@ -12,10 +12,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 An application created with Angular to clone the Metropolitan Museum of Art's website. Primary focus on separating components and
 
 
-### User Story
-| Story Event | Implemented | Planned |
+### Specs
+| Spec | Implemented | Planned |
 | :------------- | :------ | :------- |
-| **On load, User sees...** | 
+| **On load, User sees nav bar with links at top of page** | No | Yes |
+| **On load, User sees Header featuring large image** | No | Yes |
+| **On load, User sees element that allows them to purchase tickets** | No | Yes |
+| **On load, User sees three different museum locations and their descriptions** | Yes | Need more Styling |
+| **On load, User sees four highlighted areas of the site** | No | Yes |
+
 
 
 ## Development server
