@@ -2,21 +2,20 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
-# Beep Boop
 
-#### A program that allows users to input a number and returns certain values based on certain rules. 3/28/2018
+#### A clone of the The Metropolitan Museum of Art's webpage (https://www.metmuseum.org/)
 
 #### By **Isaac Shoman**
 
 ## Description
 
-A website created with Angular to clone the Metropolitan Museum website.
+An application created with Angular to clone the Metropolitan Museum of Art's website. Primary focus on separating components and
 
 
-### Specs
-| Spec | Input | Output |
-| :-------------     | :------------- | :------------- |
-| **Program replaces 0 with "Beep!".** | User input: "0" | Output: [Beep!]|
+### User Story
+| Story Event | Implemented | Planned |
+| :------------- | :------ | :------- |
+| **On load, User sees...** | 
 
 
 ## Development server
