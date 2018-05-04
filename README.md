@@ -11,38 +11,50 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 An application created with Angular to clone the Metropolitan Museum of Art's website. Primary focus on separating components and
 
-
 ### Specs
 | Spec | Implemented | Planned |
 | :------------- | :------ | :------- |
 | **On load, User sees nav bar with links at top of page** | No | Yes |
 | **On load, User sees Header featuring large image** | No | Yes |
 | **On load, User sees element that allows them to purchase tickets** | No | Yes |
-| **On load, User sees three different museum locations and their descriptions** | Yes | Need more Styling |
+| **On load, User sees three different museum locations and their descriptions** | Yes | More Styling Needed |
 | **On load, User sees four highlighted areas of the site** | No | Yes |
+| **On load, User sees four current events going on at the museum** | Yes | More Styling Needed |
+| **On load, User sees three latest blog posts** | Yes | More Styling Needed |
+| **On load, User sees three latest blog posts** | Yes | More Styling Needed |
+| **On load, User sees form for signing up for newsletter** | No | Yes |
+| **On load, User sees form for signing up for newsletter** | No | Yes |
+| **On load, User footer with links and an additional small form to sign up for the newsletter** | No | Yes |
 
 
+## Setup/Installation Requirements
 
-## Development server
+### Clone this repository.
+
+### Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
+### Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Known Bugs
+* When reversing a double digit number, the program as reverses the tens and ones places in the output. i.e. 14 = 41.
 
-## Further help
+## Technologies Used
+* JS
+* JQuery 3.3.1
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Support and contact details
+
+_Email Isaac with any questions, comments, or concerns. isaac.shoman@gmail.com_
+
+### License
+
+*{This software is licensed under the MIT license}*
+
+Copyright (c) 2018 **_{Isaac Shoman}_**

@@ -53,7 +53,6 @@
 * Featured Blog 1
 * Featured Blog 2
 * Featured Blog 3
-* Featured Blog 4
 * See all blogs link
 ##### _(Place Events and Blogs in Row)_
 
