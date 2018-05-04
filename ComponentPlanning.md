@@ -36,7 +36,7 @@
  * The Met Breuer
  * The Met Fifth Avenue
 
-##### Site highlights
+##### Museum highlights
 * Store
 * Members Info
 * Museum Map

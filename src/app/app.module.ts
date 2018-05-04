@@ -16,6 +16,7 @@ import { EventsComponent } from './events/events.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 import { FooterComponent } from './footer/footer.component';
+import { MuseumHighlightsComponent } from './museum-highlights/museum-highlights.component';
 
 
 export const firebaseConfig = {
@@ -35,7 +36,8 @@ export const firebaseConfig = {
     EventsComponent,
     BlogsComponent,
     NewsletterComponent,
-    FooterComponent
+    FooterComponent,
+    MuseumHighlightsComponent
   ],
   imports: [
     BrowserModule,
