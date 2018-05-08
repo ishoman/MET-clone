@@ -43,8 +43,25 @@ ComponentPlanning.md - Shows component set up with interaction notes and desired
 Run `ng serve --open` for a dev server. The app will automatically open in browswer and reload if you change any of the source files.
 
 ### Build
+* Clone this repository
+* Migrate to directory
+* Run npm install
+* Go to https://firebase.google.com/ and create a new database
+* Create file named src/app/api-keys.ts
+* Populate with the following with your own firebase credentials:
+```
+  export let masterFirebaseConfig = {
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: ""
+  };
+```
+  **_Be sure to name variable as shown above._**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+* Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
 
 ## Known Bugs
