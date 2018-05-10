@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-events',
   templateUrl: './events.component.html',
-  styleUrls: ['./events.component.css']
+  styleUrls: ['./events.component.css'],
   providers: [BlogEventService]
 })
 
@@ -20,5 +20,8 @@ events: FirebaseListObservable<any[]>
     console.log(this.events)
    }
 
+   ngOnInit(){
+
+   }
 
 }
