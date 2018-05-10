@@ -12,8 +12,6 @@ import { Router } from '@angular/router';
 })
 
 export class EventsComponent implements OnInit {
-
-
 events: FirebaseListObservable<any[]>
 
   constructor(private blogEventService: BlogEventService) {

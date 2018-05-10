@@ -9,13 +9,11 @@ export class BlogEventService {
   blogs: FirebaseListObservable<any[]>;
 
   constructor(private database: AngularFireDatabase) {
-    this.events = database.list('events');
-    this.blogs = database.list('blogs');
+    this.events = database.list('info/0/events');
+    this.blogs = database.list('info/0/blogs');
+    console.log(this.blogs)
    }
 
-   getEvents() {
-     return this.events;
-   }
    getBlogs() {
      return this.blogs;
    }

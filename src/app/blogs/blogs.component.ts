@@ -14,7 +14,7 @@ export class BlogsComponent {
   blogs: FirebaseListObservable<any[]>
 
   constructor(private router: Router, private blogEventService: BlogEventService) {
-    console.log(this.blogs)
+
   }
 
   ngOnInit(){

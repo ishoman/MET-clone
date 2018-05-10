@@ -1,43 +1,45 @@
-{ "events": [{
-    "eventName": "Fellows Colloquium—Creation, Devotion, and Destruction of Objects",
-    "eventDetails": "Bonnie J. Sacerdote Lecture Hall, Uris Center for Education / Free with Museum admission",
-    "eventTime": "10:00 A.M.",
-    "eventCategory": "SYMPOSIUM"
-  },
-  {
-    "eventName": "The Met Store Spring Rug Event",
-    "eventDetails": "The Met Store / Free with Museum admission",
-    "eventTime": "10:00 A.M.",
-    "eventCategory": "MET STORE EVENT"
-  },
-  {
-    "eventName": "Masterpieces of the Middle Ages",
-    "eventDetails": "Tours Sign, Great Hall / Free with Museum admission",
-    "eventTime": "10:45 A.M.",
-    "eventCategory": "GUIDED TOUR"
-  },
-  {
-    "eventName": "博物館精華 (Museum Highlights in Chinese/Mandarin",
-    "eventDetails": "International Tours Sign, Great Hall / Free with Museum admission",
-    "eventTime": "10:45 A.M.",
-    "eventCategory": "GUIDED TOUR"
-  }],
-  "blogs": [{
-    "blogTitle": "This Week at The Met",
-    "blogDetails": "From exhibition tours and gallery talks to immersive performances and family programs, The Met offers a wide range of events every day across its three locations. The following listings are just a sample of what's on this week.",
-    "blogDate": "MAY 4",
-    "blogCategory": "NOW AT THE MET"
-  },
-  {
-    "blogTitle": "When Feathers Were the Treasures of the Rainforest",
-    "blogDetails": "Conservator Christine Giuntini discusses objects from Golden Kingdoms: Luxury and Legacy in the Ancient Americas that reveal the intrinsic beauty of featherwork and the significant ritual role of feathered textiles in Precolumbian culture.",
-    "blogDate": "MAY 3",
-    "blogCategory": "NOW AT THE MET"
-  },
-  {
-    "blogTitle": "How Cultures Met in the Atlantic World",
-    "blogDetails": "Digital Editor Pac Pobric introduces a new Heilbrunn Timeline of Art History essay about the crossing of cultures in the early modern period.",
-    "blogDate": "MAY 2",
-    "blogCategory": "COLLECTION INSIGHTS"
+{ "info":[{
+    "events": [{
+      "eventName": "Fellows Colloquium—Creation, Devotion, and Destruction of Objects",
+      "eventDetails": "Bonnie J. Sacerdote Lecture Hall, Uris Center for Education / Free with Museum admission",
+      "eventTime": "10:00 A.M.",
+      "eventCategory": "SYMPOSIUM"
+    },
+    {
+      "eventName": "The Met Store Spring Rug Event",
+      "eventDetails": "The Met Store / Free with Museum admission",
+      "eventTime": "10:00 A.M.",
+      "eventCategory": "MET STORE EVENT"
+    },
+    {
+      "eventName": "Masterpieces of the Middle Ages",
+      "eventDetails": "Tours Sign, Great Hall / Free with Museum admission",
+      "eventTime": "10:45 A.M.",
+      "eventCategory": "GUIDED TOUR"
+    },
+    {
+      "eventName": "博物館精華 (Museum Highlights in Chinese/Mandarin",
+      "eventDetails": "International Tours Sign, Great Hall / Free with Museum admission",
+      "eventTime": "10:45 A.M.",
+      "eventCategory": "GUIDED TOUR"
+    }],
+    "blogs": [{
+      "blogTitle": "This Week at The Met",
+      "blogDetails": "From exhibition tours and gallery talks to immersive performances and family programs, The Met offers a wide range of events every day across its three locations. The following listings are just a sample of what's on this week.",
+      "blogDate": "MAY 4",
+      "blogCategory": "NOW AT THE MET"
+    },
+    {
+      "blogTitle": "When Feathers Were the Treasures of the Rainforest",
+      "blogDetails": "Conservator Christine Giuntini discusses objects from Golden Kingdoms: Luxury and Legacy in the Ancient Americas that reveal the intrinsic beauty of featherwork and the significant ritual role of feathered textiles in Precolumbian culture.",
+      "blogDate": "MAY 3",
+      "blogCategory": "NOW AT THE MET"
+    },
+    {
+      "blogTitle": "How Cultures Met in the Atlantic World",
+      "blogDetails": "Digital Editor Pac Pobric introduces a new Heilbrunn Timeline of Art History essay about the crossing of cultures in the early modern period.",
+      "blogDate": "MAY 2",
+      "blogCategory": "COLLECTION INSIGHTS"
+    }]
   }]
 }
