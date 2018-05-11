@@ -1,4 +1,10 @@
 .card {
   background-color: #FBFBFB;
-  max-width: 30%;
+  max-width: 300px;
+  margin-left: 35px;
+  padding: none;
+}
+
+h1 {
+  text-align: center;
 }
