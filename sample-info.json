@@ -44,17 +44,17 @@
     "locations": [{
       "locationName": "The Met Fifth Avenue",
       "description": "Over 5,000 years of art from every corner of the world",
-      "hours": "Open Today 10AM-9PM",
+      "hours": "Open Today 10AM-9PM"
     },
     {
       "locationName": "The Met Breuer",
       "description": "Modern and contemporary art reimagined in an architectural icon",
-      "hours": "Open Today 10AM-9PM",
+      "hours": "Open Today 10AM-9PM"
     },
     {
       "locationName": "The Met Cloisters",
       "description": "Wonders of medieval Europe through its art, architecture, and gardens",
-      "hours": "Open Today 10AM-5:15PM",
+      "hours": "Open Today 10AM-5:15PM"
     }]
   }]
 }
