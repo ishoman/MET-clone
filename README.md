@@ -21,17 +21,16 @@ ComponentPlanning.md - Shows component set up with interaction notes and desired
 ### Specs
 | Spec | Implemented | Planned |
 | :------------- | :------ | :------- |
-| **On load, User sees nav bar with links at top of page** | No | Yes |
-| **On load, User sees Header featuring large image** | No | Yes |
+| **On load, User sees nav bar with links at top of page** | Yes |  |
+| **User is able to click links on the nav bar to view blog posts and events** | Yes |  |
+| **On load, User sees Header featuring large image** | Yes | |
 | **On load, User sees element that allows them to purchase tickets** | No | Yes |
-| **On load, User sees three different museum locations and their descriptions** | Yes | More Styling Needed |
+| **On load, User sees three different museum locations and their descriptions** | No | Yes |
 | **On load, User sees four highlighted areas of the site** | No | Yes |
-| **On load, User sees four current events going on at the museum** | Yes | More Styling Needed |
-| **On load, User sees three latest blog posts** | Yes | More Styling Needed |
-| **On load, User sees three latest blog posts** | Yes | More Styling Needed |
+| **On load, User sees four current events going on at the museum** | No | Yes |
 | **On load, User sees form for signing up for newsletter** | No | Yes |
 | **On load, User sees form for signing up for newsletter** | No | Yes |
-| **On load, User footer with links and an additional small form to sign up for the newsletter** | No | Yes |
+| **On load, User sees footer with links and an additional small form to sign up for the newsletter** | No | Yes |
 
 
 ## Setup/Installation Requirements
@@ -60,7 +59,7 @@ Run `ng serve --open` for a dev server. The app will automatically open in brows
   };
 ```
   **_Be sure to name variable as shown above._**
-  
+
 * Import sample-info.json into your database
 
 * Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
