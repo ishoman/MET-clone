@@ -1,3 +1,13 @@
-<p>
-  locations works!
-</p>
+<div class="container">
+  <h1>MET Locations</h1>
+  <div *ngFor="let location of locations | async">
+    <div class="card">
+      <h2>{{location.locationName}}</h2>
+      <br>
+      <p>{{location.description}}</p>
+      <br>
+      <h5>{{location.hours}}</h5>
+    </div>
+    <br>
+  </div>
+</div>
