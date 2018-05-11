@@ -1,5 +1,5 @@
 <div class="container">
-  <h1>Blogs</h1>
+  <h1 class="page-title">Blogs</h1>
   <div *ngFor="let blog of blogs | async">
     <div class="card">
       <h2>{{blog.blogTitle}}</h2>
@@ -9,7 +9,6 @@
       <h5>{{blog.blogDate}}</h5>
       <p>{{blog.blogCategory}}</p>
     </div>
-    <hr>
     <br>
   </div>
 </div>

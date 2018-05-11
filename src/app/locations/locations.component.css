@@ -1,9 +1,20 @@
 .card h2 {
   text-align: center;
+  color: #FB0000;
 }
 
+.card p{
+  color: lightgray;
+}
+
+#hours {
+  color: black;
+}
+
+.locations {
+  background-color: #FFFFFF !Important;
+}
 .card {
-  background-color: #FBFBFB;
   max-width: 300px;
   margin-left: 35px;
   padding: none;

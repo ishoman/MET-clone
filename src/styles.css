@@ -5,3 +5,8 @@ body {
 .container {
   background-color: #FBFBFB;
 }
+
+.page-title {
+  font-size: 60px;
+  font-weight: 600;
+}
