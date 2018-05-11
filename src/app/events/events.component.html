@@ -1,4 +1,4 @@
-<div class="col-md">
+<div class="container">
   <h1>Events</h1>
   <div *ngFor="let event of events | async">
     <div class="card">
@@ -9,5 +9,6 @@
       <h5>{{event.eventTime}}</h5>
       <p>{{event.eventCategory}}</p>
     </div>
+    <br>
   </div>
 </div>
