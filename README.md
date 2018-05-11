@@ -4,6 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 
 #### A clone of the The Metropolitan Museum of Art's webpage (https://www.metmuseum.org/)
+#### My clone: https://the-met.firebaseapp.com/
 
 #### By **Isaac Shoman**
 
@@ -22,7 +23,7 @@ ComponentPlanning.md - Shows component set up with interaction notes and desired
 | Spec | Implemented | Planned |
 | :------------- | :------ | :------- |
 | **On load, User sees nav bar with links at top of page** | Yes |  |
-| **User is able to click links on the nav bar to view blog posts and events** | Yes |  |
+| **User is able to click links on the nav bar to view blog posts, events, and MET locations** | Yes |  |
 | **On load, User sees Header featuring large image** | Yes | |
 | **On load, User sees element that allows them to purchase tickets** | No | Yes |
 | **On load, User sees three different museum locations and their descriptions** | No | Yes |
@@ -66,7 +67,8 @@ Run `ng serve --open` for a dev server. The app will automatically open in brows
 
 
 ## Known Bugs
-* Styling is highly imperfect. Focused primarily on loading information from components with small attempts to style. (As of 5/4/2018)
+* Styling is highly imperfect. Focused on routing and loading information from Firebase.
+* Only Blogs and Events Links in the navbar are active.
 
 ## Technologies Used
 * Angular
