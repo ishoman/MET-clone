@@ -7,13 +7,17 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-locations',
   templateUrl: './locations.component.html',
-  styleUrls: ['./locations.component.css']
+  styleUrls: ['./locations.component.css'],
+  providers: [BlogEventService]
 })
 export class LocationsComponent implements OnInit {
+  locations: FirebaseListObservable<any[]>;
 
-  constructor() { }
+  constructor(private blogEventService: BlogEventService) {
+   }
 
-  ngOnInit() {
+  ngOnInit(){
+    this.locations = this.blogEventService.getLocations();
   }
 
 }
