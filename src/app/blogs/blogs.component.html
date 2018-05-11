@@ -1,4 +1,4 @@
-  <div *ngFor="let blog of blogs">
+  <div *ngFor="let blog of blogs | async">
     <div class="card">
       <h2>{{blog.blogTitle}}</h2>
       <br>
