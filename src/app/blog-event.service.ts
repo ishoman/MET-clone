@@ -11,11 +11,14 @@ export class BlogEventService {
   constructor(private database: AngularFireDatabase) {
     this.events = database.list('info/0/events');
     this.blogs = database.list('info/0/blogs');
-    console.log(this.blogs)
    }
 
    getBlogs() {
      return this.blogs;
+   }
+
+   getEvents() {
+     return this.events;
    }
 
 }

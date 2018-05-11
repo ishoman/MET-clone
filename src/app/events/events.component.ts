@@ -15,11 +15,10 @@ export class EventsComponent implements OnInit {
 events: FirebaseListObservable<any[]>
 
   constructor(private blogEventService: BlogEventService) {
-    console.log(this.events)
    }
 
    ngOnInit(){
-
+     this.events = this.blogEventService.getEvents();
    }
 
 }

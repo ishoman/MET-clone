@@ -10,6 +10,7 @@ import { AngularFireDatabaseModule } from 'angularfire2/database'
 import { EventsComponent } from './events/events.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { routing } from './app.routing';
+import { HomepageComponent } from './homepage/homepage.component';
 
 
 export const firebaseConfig = {
@@ -24,6 +25,7 @@ export const firebaseConfig = {
     AppComponent,
     EventsComponent,
     BlogsComponent,
+    HomepageComponent,
   ],
   imports: [
     BrowserModule,
