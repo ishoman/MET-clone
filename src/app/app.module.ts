@@ -6,17 +6,9 @@ import { AppComponent } from './app.component';
 
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
-import { AngularFireDatabaseModule } from 'angularfire2/database';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { HeaderComponent } from './header/header.component';
-import { TicketPurchasingComponent } from './ticket-purchasing/ticket-purchasing.component';
-import { MuseumLocComponent } from './museum-loc/museum-loc.component';
+import { AngularFireDatabaseModule } from 'angularfire2/database'
 import { EventsComponent } from './events/events.component';
 import { BlogsComponent } from './blogs/blogs.component';
-import { NewsletterComponent } from './newsletter/newsletter.component';
-import { FooterComponent } from './footer/footer.component';
-import { MuseumHighlightsComponent } from './museum-highlights/museum-highlights.component';
-import { MuseumAddressesComponent } from './museum-addresses/museum-addresses.component';
 import { routing } from './app.routing';
 
 
@@ -30,16 +22,8 @@ export const firebaseConfig = {
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent,
-    HeaderComponent,
-    TicketPurchasingComponent,
-    MuseumLocComponent,
     EventsComponent,
     BlogsComponent,
-    NewsletterComponent,
-    FooterComponent,
-    MuseumHighlightsComponent,
-    MuseumAddressesComponent
   ],
   imports: [
     BrowserModule,
