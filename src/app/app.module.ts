@@ -11,6 +11,7 @@ import { EventsComponent } from './events/events.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { routing } from './app.routing';
 import { HomepageComponent } from './homepage/homepage.component';
+import { LocationsComponent } from './locations/locations.component';
 
 
 export const firebaseConfig = {
@@ -26,6 +27,7 @@ export const firebaseConfig = {
     EventsComponent,
     BlogsComponent,
     HomepageComponent,
+    LocationsComponent,
   ],
   imports: [
     BrowserModule,
