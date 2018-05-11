@@ -40,6 +40,21 @@
       "blogDetails": "Digital Editor Pac Pobric introduces a new Heilbrunn Timeline of Art History essay about the crossing of cultures in the early modern period.",
       "blogDate": "MAY 2",
       "blogCategory": "COLLECTION INSIGHTS"
+    }],
+    "locations": [{
+      "locationName": "The Met Fifth Avenue",
+      "description": "Over 5,000 years of art from every corner of the world",
+      "hours": "Open Today 10AM-9PM",
+    },
+    {
+      "locationName": "The Met Breuer",
+      "description": "Modern and contemporary art reimagined in an architectural icon",
+      "hours": "Open Today 10AM-9PM",
+    },
+    {
+      "locationName": "The Met Cloisters",
+      "description": "Wonders of medieval Europe through its art, architecture, and gardens",
+      "hours": "Open Today 10AM-5:15PM",
     }]
   }]
 }

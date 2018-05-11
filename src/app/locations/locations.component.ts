@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Event } from '../models/events.model';
+import { Museum } from '../models/museum-location-info.model';
 import { FirebaseListObservable } from 'angularfire2/database';
 import { BlogEventService } from '../blog-event.service';
 import { Router } from '@angular/router';
