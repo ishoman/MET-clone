@@ -60,6 +60,8 @@ Run `ng serve --open` for a dev server. The app will automatically open in brows
   };
 ```
   **_Be sure to name variable as shown above._**
+  
+* Import sample-info.json into your database
 
 * Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
